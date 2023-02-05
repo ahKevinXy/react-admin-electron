@@ -2,34 +2,35 @@
   "description": "A foundation for scalable desktop apps",
   "keywords": [
     "electron",
-    "boilerplate",
+    "react-admin",
     "react",
     "typescript",
     "ts",
     "sass",
     "webpack",
+    "antd",
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/ahKevinXy/react-admin-electron#readme",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "https://github.com/ahKevinXy/react-admin-electron/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git+https://github.com/ahKevinXy/react-admin-electron.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "ahKevinXy",
+    "email": "ah_kevin_xy@126.com",
+    "url": "https://ahkevinxy.github.io"
   },
   "contributors": [
     {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
+      "name": "ahKevinXy",
+      "email": "ah_kevin_xy@126.com",
+      "url": "https://github.com/ahKevinXy"
     }
   ],
   "main": "./src/main/main.ts",
@@ -109,12 +110,18 @@
     }
   },
   "dependencies": {
+    "antd": "^5.1.7",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.0"
+    "react-router-dom": "^6.4.0",
+    "@ant-design/icons": "^5.0.0",
+    "@ant-design/pro-components": "^2.3.52",
+    "@electron/remote": "^2.0.9",
+    "@sentry/electron": "^4.2.0",
+    "crypto": "^1.0.1"
   },
   "devDependencies": {
     "@electron/notarize": "^1.2.3",
@@ -186,7 +193,7 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
+    "productName": "react-admin-electron",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
@@ -248,9 +255,6 @@
       "owner": "electron-react-boilerplate",
       "repo": "electron-react-boilerplate"
     }
-  },
-  "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
   },
   "devEngines": {
     "node": ">=14.x",
