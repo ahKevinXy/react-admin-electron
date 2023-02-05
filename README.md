@@ -1,5 +1,5 @@
 
-## Install
+## 安装
 
 Clone the repo and install dependencies:
 
@@ -9,15 +9,15 @@ cd your-project-name
 npm install
 ```
 
-## Starting Development
+## 开发环境
 
-Start the app in the `dev` environment:
+开始调试环境
 
 ```bash
 npm start
 ```
 
-## Packaging for Production
+## 打包平台
 
 To package apps for the local platform:
 
