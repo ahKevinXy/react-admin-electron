@@ -27,3 +27,7 @@ To package apps for the local platform:
 ```bash
 npm run package
 ```
+
+## 预览
+
+![alt 首页](/assets/images/home.png)
